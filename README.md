@@ -22,21 +22,4 @@ Mermaid allows even non-programmers to easily create detailed through the Mermai
 For a more detailed introduction to mermaid look to the beginner's Guide, usage and tutorials.
 ____________________________________
 
-### Basic Syntax
-____________________________________
 
-Mermaid uses a straightforward syntax to define different types of diagrams. Below are some examples:
-____________________________________
-
-#### Flowchart 
-____________________________________
-
-```mermaid
-graph TD
-    A[Start] --> B{Am I visible?}
-    B -->|No| C[check it again]
-    B -->|Yes | D[now continue]
-    D --> E[Try again]
-    E --> B
-```
-____________________________________
